@@ -1,14 +1,24 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "A note-taking application, designed with to-do lists in mind.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dennis-Inglehart/module-eleven-challenge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dennis-Inglehart/module-eleven-challenge/issues"
+  },
+  "homepage": "https://github.com/Dennis-Inglehart/module-eleven-challenge#readme"
 }
