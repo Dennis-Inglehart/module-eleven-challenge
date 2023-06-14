@@ -14,7 +14,7 @@ A note-taking application, designed with to-do lists in mind.
 
 Follow this link:
 
-[Inglehart Note Taker](https://REPLACE_THIS_WITH_A_WORKING_LINK)
+[Inglehart Note Taker](https://module-eleven-challenge.herokuapp.com/)
 
 Clicking the plus icon will make a new note: click on the title field to write a title; click on the text field to write text.
 
