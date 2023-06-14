@@ -45,7 +45,7 @@ app.get('/api/notes/:id', (req, res) => {
   } else {res.status(404).json({ error: 'Note not found' });}
 });
 
-// route to save a new note; works currently returns naked JSON data of the note, which is janky, and it ought to be a pretty, UI-looking display
+// route to save a new note
 app.post('/api/notes', (req, res) => {
     const notes = readDataFromFile();
     const newNote = req.body;
